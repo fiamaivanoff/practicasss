@@ -7,4 +7,4 @@ number = 19
 booleano = false  //cero, no pasa 
 booleano = true // uno, pasa.
  //casos especiales de datos: undefind(indefinido), null(nada), nan(not a number, "no es un numero")
- //tipos de variables: var, let, const
+ //tipos de variables: var, let, const...
