@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+}
+
+
+.texto1{
+    background-image: url('../imagenes/pexels-henda-watani-320014.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: violet; */
+    color: rgb(198, 36, 36);
+    width: 800px;
+    height: 800px;
+    padding: 20px 40px;
+    margin: 20px 50px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.482) 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: all 0.5s ease;
+    display: none;
+
+}
+.texto1:hover{
+    /* background: rgb(187, 255, 0); */
+    background-image: url('../imagenes/pexels-nati-14215166.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.texto2{
+    background: rgb(209, 65, 72);
+    color: white;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+
+.texto2:hover{
+    transition: all .3s ease;
+    transform: scaleY(1.10);
+}
+
+.titulo1{
+    color: blueviolet;
+}
+
+.titulo2{
+    color: brown;
+}
+
+.padding{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 30px ;
+    width: 100px;
+    margin: 10px 30px 10px 30px;
+    border: 1px solid #dddd;
+    background: #f2f2f2;
+    text-align: center;
+}
